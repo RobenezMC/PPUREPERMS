@@ -1,9 +1,11 @@
 name: PurePerms
 main: PurePerms\Main
-version: 1.5.1
-api: 5.0.0
-author: 64FF00
+version: 1.0.0
+api: [5.0.0]
+author: YourName
 description: Permissions plugin for PocketMine-MP
+website: https://github.com/YourUsername/YourRepoName
+
 commands:
   setgroup:
     description: Set a player's group
@@ -11,18 +13,21 @@ commands:
   addgroup:
     description: Add a new group
     usage: "/addgroup <group>"
-  ppinfo:
-    description: View player permission info
-    usage: "/ppinfo <player>"
   removegroup:
     description: Remove a group
     usage: "/removegroup <group>"
   listgroups:
     description: List all groups
     usage: "/listgroups"
-  addperm:
-    description: Add a permission to a group
-    usage: "/addperm <group> <permission>"
-  removeperm:
+  groupinfo:
+    description: View group info
+    usage: "/groupinfo <group>"
+  ppinfo:
+    description: View player permission info
+    usage: "/ppinfo <player>"
+  setperm:
+    description: Set a permission for a group
+    usage: "/setperm <group> <permission>"
+  unsetperm:
     description: Remove a permission from a group
-    usage: "/removeperm <group> <permission>"
+    usage: "/unsetperm <group> <permission>"
