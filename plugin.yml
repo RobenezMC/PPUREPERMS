@@ -1,8 +1,8 @@
 name: OVOPerms
-main: PurePerms\Main
+main: OVOPerms\Main
 version: 1.0.0
 api: [5.0.0]
-author: YourName
+author: RobenezMC
 description: Permissions plugin for PocketMine-MP
 website: https://github.com/YourUsername/YourRepoName
 
