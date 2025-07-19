@@ -1,5 +1,5 @@
-name: OVOPerms
-main: OVOPerms\Main
+name: OVOPermsX
+main: OVOPermsX\Main
 version: 1.0.0
 api: [5.0.0]
 author: RobenezMC
