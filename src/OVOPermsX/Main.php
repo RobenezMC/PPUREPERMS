@@ -1,6 +1,6 @@
 <?php
 
-namespace OVOPerms;
+namespace OVOPermsX;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
